@@ -7,3 +7,4 @@ $app->get('/' , function(){
 });
 
 $app->get('/hello/{name}', FirstController::class.':home');
+$app->post('/hello/{name}' , FirstController::class.':home');
